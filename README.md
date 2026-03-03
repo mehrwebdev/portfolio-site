@@ -2,6 +2,7 @@
 ![CSS](https://img.shields.io/badge/CSS3-%231572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011?style=flat-square&logo=github&logoColor=white)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)](https://mehrwebdev.github.io/portfolio-site/)
 
 # Portfolio Website
 
