@@ -1,3 +1,8 @@
+![HTML](https://img.shields.io/badge/HTML5-%23E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-%231572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![GitHub](https://img.shields.io/badge/GitHub-%23121011?style=flat-square&logo=github&logoColor=white)
+
 # Portfolio Website
 
 ## Overview
@@ -35,4 +40,4 @@ This is my personal portfolio website to showcase my frontend projects, skills, 
 
 ## Contact
 Email: meharbiyar7@gmail.com  
-Fiverr :  [(https://www.fiverr.com/s/bd6jD5k).]
+Fiverr: [https://www.fiverr.com/s/bd6jD5k](https://www.fiverr.com/s/bd6jD5k)
