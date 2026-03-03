@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MehrBiyar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="side-nav">
+        <div class="profile-name">MehrBiyar</div>
+        <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content fade-in">
+                <h1>Building Modern, Responsive Websites</h1>
+                <h3>Clean UI, interactive layouts, and brand-focused design</h3>
+                <a href="#projects" class="btn">View Projects</a>
+            </div>
+        </section>
+
+        <section id="about" class="fade-in">
+            <h2>About Me</h2>
+            <p>
+                I am MehrBiyar, a passionate web developer focused on creating modern, responsive websites that help
+                small businesses and brands stand out online. I specialize in clean UI, intuitive navigation, and
+                interactive layouts that make websites visually appealing and functional.
+            </p>
+            <p>
+                My approach is simple: understand the brand, design for users, and build with semantic, maintainable
+                code. I enjoy turning ideas into functional websites and continuously improving with every project.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="fade-in">
+            <h2>Projects</h2>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <div class="project-left"
+                        data-images='["/projects/mubarakcafe/home.png",
+                        "/projects/mubarakcafe/menu.png",
+                        "/projects/mubarakcafe/visit_us.png"]'>
+
+                        <h3>Mubarak Cafe</h3>
+                        <p>Click to view </p>
+                    </div>
+
+                    <div class="project-right">
+                        <p class="project-type">Demo Frontend Website</p>
+
+                        <p class="project-desc">
+                            A structured 3-page restaurant website including Home, Menu, and Visit Us sections.
+                            Built with clean HTML, CSS, and JavaScript, featuring a responsive layout,
+                            organized menu categories, and interactive elements.
+                        </p>
+
+                        <!-- <a href="https://
+                            target="_blank"
+                            class="project-card-btn">
+                            View on GitHub
+                        </a> -->
+                    </div>
+                </div>
+
+            </div> 
+
+    
+            <div id="project-lightbox" class="lightbox">
+                <span class="close">&times;</span>
+                <img class="lightbox-img" src="" alt="Project Screenshot">
+                <div class="lightbox-controls">
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                </div>
+            </div>
+
+        </section>
+        <section id="skills" class="fade-in">
+            <h2>Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML Icon" class="skill-icon">
+                    <h3>HTML</h3>
+                    <p>Semantic, clean, and accessible markup.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS Icon" class="skill-icon">
+                    <h3>CSS</h3>
+                    <p>Modern layouts, responsive design, and visual polish.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JS Icon" class="skill-icon">
+                    <h3>JavaScript</h3>
+                    <p>Interactive features and dynamic content.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="/images/res_icon.png" alt="Responsive Icon" class="skill-icon">
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-first approach ensuring compatibility across devices.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="/images/UI_layout_icon.png" alt="UI Icon" class="skill-icon">
+                    <h3>UI Layout</h3>
+                    <p>Designing intuitive and professional interfaces.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="fade-in">
+            <h2>Contact</h2>
+            <h3>Available for freelance projects</h3>
+
+            <div class="contact-methods">
+                <a href="mailto:meharbiyar7@gmail.com" class="contact-email">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email Icon">
+                    meharbiyar7@gmail.com
+                </a>
+            </div>
+
+            <a href="https://www.fiverr.com/s/42yWE4b" target="_blank" class="btn">Hire Me</a>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
