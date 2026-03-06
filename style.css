@@ -397,3 +397,156 @@ section p {
     text-align: center;
   }
 }
+.hero-name {
+  display: none;
+}
+/* MOBILE LAYOUT Version */
+@media (max-width: 900px) {
+
+  main {
+    margin-left: 0;
+    padding: 2rem 1.5rem;
+  }
+
+  .side-nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem 0;
+  }
+
+  .side-nav .profile-name {
+    display: none;
+  }
+
+  .side-nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .side-nav ul li a {
+    font-size: 0.9rem;
+    padding: 0.2rem 0;
+  }
+
+  #hero {
+    padding: 8rem 1rem 4rem 1rem;
+    min-height: 60vh;
+    position: relative;
+  }
+  .hero-name {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #00BFFF;
+    margin-bottom: 1rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  .hero-content h3 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  #about p {
+    max-width: 90%;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .project-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .project-card {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto !important;
+  }
+
+  .project-left,
+  .project-right {
+    width: 100% !important;
+    padding: 0.8rem !important;
+  }
+
+  .project-right {
+    justify-content: flex-start !important;
+  }
+
+  .project-right .project-desc {
+    font-size: 0.9rem;
+  }
+
+  .project-card-btn {
+    display: block !important;
+    width: 100% !important;
+    padding: 1rem !important;
+    min-height: 50px !important;
+    font-size: 0.95rem;
+  }
+  .skills-grid {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .skill-card {
+    flex: 1 1 100%;
+    padding: 0.8rem;
+  }
+
+  .skill-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .skill-card h3 {
+    font-size: 1rem;
+  }
+
+  .skill-card p {
+    font-size: 0.9rem;
+  }
+
+  #contact h2 {
+    font-size: 1.8rem;
+  }
+
+  #contact h3 {
+    font-size: 1rem;
+  }
+
+  #contact .btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .contact-methods {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .contact-email {
+    font-size: 0.9rem;
+  }
+
+  .project-card:hover,
+  .skill-card:hover,
+  .project-card-btn:hover {
+    transform: none;
+    box-shadow: none;
+    background-color: inherit;
+  }
+}
