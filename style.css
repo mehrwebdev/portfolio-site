@@ -99,7 +99,7 @@ section p {
   align-items: center;
   text-align: center;
   position: relative;
-  background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  background: url('images/home_page_bg.jpg') center/cover no-repeat;
 }
 
 .hero-overlay {
